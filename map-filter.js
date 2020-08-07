@@ -1,4 +1,4 @@
-//1st type
+// //1st type
 
 // const numbers = [12, 3, 4, 5, 4, 3];
 // const output = [];
@@ -9,14 +9,14 @@
 // }
 // console.log(output);
 
-// 2nd type
+// // 2nd type
 
 // const numbers = [12, 3, 4, 5, 4, 3];
 
 // const result = numbers.map( x => x * x);
 // console.log(result);
 
-// 3rd type
+// // 3rd type
 
 
 // const numbers = [12, 3, 4, 5, 4, 3];
@@ -25,12 +25,20 @@
 // })
 // console.log(result);
 
-// 4th type 
+// // 4th type 
+
+// const numbers = [12, 3, 4, 5, 4, 3];
+// const results = numbers.map(result);
+// function result(element){
+//     return element * element
+// }
+// console.log(results);
+
+
+// const numbers = [12, 13, 4, 5, 4, 3];
+// const bigger = numbers.filter(x => x > 5);
+// console.log(bigger);
 
 const numbers = [12, 3, 4, 5, 4, 3];
-const results = numbers.map(result);
-function result(element){
-    return element * element
-}
-console.log(results);
-
+const isThere = numbers.find(x => x > 5);
+console.log(isThere);
